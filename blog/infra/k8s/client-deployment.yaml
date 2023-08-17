@@ -17,11 +17,11 @@ spec:
           image: sourabhdeshmukh/client
           resources:
             requests:
-              memory: 96Mi
-              cpu: 200m
+              memory: 200Mi
+              cpu: 100m
             limits:
-              memory: 96Mi
-              cpu: 200m
+              memory: 400Mi
+              cpu: 180m
 ---
 apiVersion: v1
 kind: Service
